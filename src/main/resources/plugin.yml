@@ -1,0 +1,12 @@
+name: DcraftPointsShop
+version: 1.0.0
+main: com.example.pointsshop.DcraftPointsShop
+api-version: 1.21
+author: Sen
+description: Premium Puan Marketi
+softdepend: [PlayerPoints, LuckPerms]
+
+commands:
+  puanmarket:
+    description: Puan marketini acar
+    aliases: [pmarket, pshop]
