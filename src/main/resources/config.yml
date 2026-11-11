@@ -1,0 +1,35 @@
+# Dcraft Puan Marketi Ayarları - DİP FİYATLAR
+
+urunler:
+  vip:
+    isim: "§a§lVIP (30 Gün)"
+    aciklama:
+      - "§7Sunucuda VIP olmanın ayrıcalıklarını yaşa!"
+      - "§7Özel komutlar, renkli chat ve daha fazlası."
+      - "§8(Süre: 30 Gün)"
+    material: IRON_INGOT
+    fiyat: 100
+    slot: 11
+    komut: "lp user %player% parent addtemp vip 30d"
+  
+  vipplus:
+    isim: "§b§lVIP+ (30 Gün)"
+    aciklama:
+      - "§7VIP'in tüm özellikleri + ekstra ayrıcalıklar!"
+      - "§7Daha fazla ev, daha fazla komut."
+      - "§8(Süre: 30 Gün)"
+    material: GOLD_INGOT
+    fiyat: 300
+    slot: 13
+    komut: "lp user %player% parent addtemp vipplus 30d"
+    
+  dvip:
+    isim: "§d§lDVIP (30 Gün)"
+    aciklama:
+      - "§7Sunucunun en üst seviye üyeliği!"
+      - "§7Tüm ayrıcalıklar, özel kitler ve daha fazlası."
+      - "§8(Süre: 30 Gün)"
+    material: DIAMOND
+    fiyat: 750
+    slot: 15
+    komut: "lp user %player% parent addtemp dvip 30d"
